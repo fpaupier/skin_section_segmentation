@@ -1,5 +1,9 @@
 # Skin segmentation
 
+<p align="center"> 
+<img src="http://i66.tinypic.com/m99b29.png">
+</p>
+
 ## Goal of the project
 
 The goal of this project is to identify meaningful features to perform a _kmean clustering_ on
