@@ -1,25 +1,15 @@
 # Skin segmentation
 
-<p align="center"> 
-<img src="http://i66.tinypic.com/m99b29.png">
-</p>
+![](assets/cover.png)
 
-## Goal of the project
+## Goal
+In this medical imaging project, I perform cancerous cells detection in histological examination of skin/epidermis.
 
-The goal of this project is to identify meaningful features to perform a _kmean clustering_ on
-a histological examination of skin/epidermis in the first time, and on a
-histological examination of skin/epidermis and tumor infiltrate in a second time.
-
-## Features used
-At first we use the colors as features to feed the kmeans algorithms.
-We notice that it doesn't yield an acceptable classification.
-
-In a second time we use patches of the different regions of interest to construct features
-by convoluting the base image with this patch of dermis, epidermis and tumor infiltration.
-
-The results yielded by a _kmeans_ fed with those convolutional features is much better than
-when relying on colors of the regions of interest.
+## Results
+The [`src/workbook.html`](src/workbook.html) file describes my proceedings as well as my results.
+The source Matlab notebook file is also available under the [`src/workbook.mlx`](src/workbook.mlx) (Matlab Required to open it).
 
 ## Notes
 
-This project was part of my Master Of Science Major in statistics at Centrale Nantes engineering school.
+This project was part of my Master Of Science curriculum at Centrale Nantes.
+This project is no longer updated.
